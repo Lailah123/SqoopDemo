@@ -6,12 +6,14 @@ import org.apache.sqoop.submission.counter.Counter;
 import org.apache.sqoop.submission.counter.CounterGroup;
 import org.apache.sqoop.submission.counter.Counters;
 import org.apache.sqoop.validation.Status;
+
 import java.util.Arrays;
 import java.util.UUID;
 
 public class SqoopDataModel {
     //创建静态客户端对象
     static SqoopClient client;
+
     //创建jdbc连接
     public static MLink createMysqlLink() {
         //使用内置的连接器
@@ -141,7 +143,7 @@ public class SqoopDataModel {
         }
     }
 
-//启动job
+    //启动job
     static void startJob(String jobName) {
         //Job start
         MSubmission submission = client.startJob(jobName);
