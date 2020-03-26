@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Producer.java" afterDir="false" />
+    <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="新增kafka demo">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Aaa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sqoop2/SqoopDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sqoop2/SqoopDataModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sqoop2/SqoopDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sqoop2/SqoopDataModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +70,14 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.23908046" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Producer">
+  <component name="RunManager" selected="Application.Consumer">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kafka.Consumer" />
       <module name="SqoopDemo" />
@@ -159,7 +156,8 @@
       <workItem from="1582952464555" duration="563000" />
       <workItem from="1582956264677" duration="54000" />
       <workItem from="1582956335709" duration="103000" />
-      <workItem from="1585154951925" duration="2229000" />
+      <workItem from="1585154951925" duration="2898000" />
+      <workItem from="1585242023551" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="代码格式化">
       <created>1582885096710</created>
@@ -168,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582885096710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增kafka demo">
+      <created>1585240647078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585240647078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码格式化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码格式化" />
+    <MESSAGE value="新增kafka demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增kafka demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1582042927355">
@@ -212,26 +218,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="924" y="321" key="#xdebugger.evaluate/0.0.1536.960@0.0.1536.960" timestamp="1582039343890" />
-    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1582885096620">
+    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1585242131969">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1582885096620" />
-    <state width="1494" height="407" key="GridCell.Tab.0.bottom" timestamp="1585240287896">
+    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1585242131969" />
+    <state width="1494" height="407" key="GridCell.Tab.0.bottom" timestamp="1585240664931">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="407" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1585240287896" />
-    <state width="1494" height="407" key="GridCell.Tab.0.center" timestamp="1585240287895">
+    <state width="1494" height="407" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1585240664931" />
+    <state width="1494" height="407" key="GridCell.Tab.0.center" timestamp="1585240664930">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="407" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1585240287895" />
-    <state width="1494" height="407" key="GridCell.Tab.0.left" timestamp="1585240287895">
+    <state width="1494" height="407" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1585240664930" />
+    <state width="1494" height="407" key="GridCell.Tab.0.left" timestamp="1585240664930">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="407" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1585240287895" />
-    <state width="1494" height="407" key="GridCell.Tab.0.right" timestamp="1585240287896">
+    <state width="1494" height="407" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1585240664930" />
+    <state width="1494" height="407" key="GridCell.Tab.0.right" timestamp="1585240664931">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="1494" height="407" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1585240287896" />
+    <state width="1494" height="407" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1585240664931" />
     <state width="1494" height="318" key="GridCell.Tab.1.bottom" timestamp="1582186170300">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -248,22 +254,22 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="1494" height="318" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1582186170299" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1582907744814">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1585242004466">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1582907744814" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1582885109090">
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1585242004466" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585240650554">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1582885109090" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1585240650554" />
     <state width="768" height="480" key="XDebugger.FullValuePopup" timestamp="1581753558873">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="768" height="480" key="XDebugger.FullValuePopup/0.0.1536.960@0.0.1536.960" timestamp="1581753558873" />
-    <state x="445" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1582956421203">
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585242025284">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="445" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1582956421203" />
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1585242025284" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582955362466">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
