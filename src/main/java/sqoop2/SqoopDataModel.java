@@ -54,7 +54,7 @@ public class SqoopDataModel {
         link.setCreationUser("zhaojixun");
         //获取连接配置对象，并配置hdfs路径及hadoop配置路径
         MLinkConfig linkConfig = link.getConnectorLinkConfig();
-        linkConfig.getStringInput("linkConfig.uri").setValue("hdfs://192.168.2.240:9000/");
+        linkConfig.getStringInput("linkConfig.uri").setValue("hdfs://192.168.0.102:9000/");
         linkConfig.getStringInput("linkConfig.confDir").setValue("/Users/zhaojixun/soft/hadoop-2.9.2/etc/hadoop");
         //保存连接
         Status status = client.saveLink(link);
@@ -170,15 +170,15 @@ public class SqoopDataModel {
     }
 
     public static void main(String[] args) {
-        String url = "http://192.168.2.240:12000/sqoop/";
+        String url = "http://192.168.0.102:12000/sqoop/";
         client = new SqoopClient(url);
         System.out.println(client);
         MLink hdfsLink = createHdfsLink();
         MLink mysqlLink = createMysqlLink();
         // 将数据导入 hdfs
-        // startJob(createMysqlToHdfsJob(mysqlLink, hdfsLink));
+         startJob(createMysqlToHdfsJob(mysqlLink, hdfsLink));
         // 将数据导回 mysql
-        startJob(createHdfsToMysqlJob(hdfsLink, mysqlLink));
+//        startJob(createHdfsToMysqlJob(hdfsLink, mysqlLink));
 //        startJob(createMysqlToHdfsJob(mysqlLink, hdfsLink));
     }
 }

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sqoop2/SqoopDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sqoop2/SqoopDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sqoop2/SqoopDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sqoop2/SqoopDataModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1XpmGpU20dJnHBZfv5fLMuTS4k7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.23908046" />
@@ -72,13 +80,39 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MetaData">
+  <component name="RunManager" selected="Application.Producer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.Consumer" />
+      <module name="SqoopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MetaData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="meta_data.MetaData" />
       <module name="SqoopDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="meta_data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kafka.Producer" />
+      <module name="SqoopDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MetaData" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Producer" />
         <item itemvalue="Application.SqoopDataModel" />
+        <item itemvalue="Application.MetaData" />
       </list>
     </recent_temporary>
   </component>
@@ -116,8 +152,23 @@
       <workItem from="1582637942995" duration="1511000" />
       <workItem from="1582882693682" duration="316000" />
       <workItem from="1582883027468" duration="340000" />
-      <workItem from="1582883429955" duration="627000" />
+      <workItem from="1582883429955" duration="3276000" />
+      <workItem from="1582948969775" duration="142000" />
+      <workItem from="1582949527064" duration="302000" />
+      <workItem from="1582949864561" duration="367000" />
+      <workItem from="1582952464555" duration="563000" />
+      <workItem from="1582956264677" duration="54000" />
+      <workItem from="1582956335709" duration="103000" />
+      <workItem from="1585154951925" duration="2229000" />
     </task>
+    <task id="LOCAL-00001" summary="代码格式化">
+      <created>1582885096710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582885096710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,11 +179,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="代码格式化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码格式化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1582042927355">
@@ -155,22 +212,26 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="924" y="321" key="#xdebugger.evaluate/0.0.1536.960@0.0.1536.960" timestamp="1582039343890" />
-    <state width="747" height="301" key="GridCell.Tab.0.bottom" timestamp="1582383317337">
+    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1582885096620">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="301" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1582383317337" />
-    <state width="747" height="301" key="GridCell.Tab.0.center" timestamp="1582383317336">
+    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1582885096620" />
+    <state width="1494" height="407" key="GridCell.Tab.0.bottom" timestamp="1585240287896">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="301" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1582383317336" />
-    <state width="747" height="301" key="GridCell.Tab.0.left" timestamp="1582383317335">
+    <state width="1494" height="407" key="GridCell.Tab.0.bottom/0.0.1536.960@0.0.1536.960" timestamp="1585240287896" />
+    <state width="1494" height="407" key="GridCell.Tab.0.center" timestamp="1585240287895">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="301" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1582383317335" />
-    <state width="747" height="301" key="GridCell.Tab.0.right" timestamp="1582383317336">
+    <state width="1494" height="407" key="GridCell.Tab.0.center/0.0.1536.960@0.0.1536.960" timestamp="1585240287895" />
+    <state width="1494" height="407" key="GridCell.Tab.0.left" timestamp="1585240287895">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state width="747" height="301" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1582383317336" />
+    <state width="1494" height="407" key="GridCell.Tab.0.left/0.0.1536.960@0.0.1536.960" timestamp="1585240287895" />
+    <state width="1494" height="407" key="GridCell.Tab.0.right" timestamp="1585240287896">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state width="1494" height="407" key="GridCell.Tab.0.right/0.0.1536.960@0.0.1536.960" timestamp="1585240287896" />
     <state width="1494" height="318" key="GridCell.Tab.1.bottom" timestamp="1582186170300">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -187,22 +248,30 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="1494" height="318" key="GridCell.Tab.1.right/0.0.1536.960@0.0.1536.960" timestamp="1582186170299" />
-    <state x="269" y="119" key="SettingsEditor" timestamp="1582881836307">
+    <state x="269" y="119" key="SettingsEditor" timestamp="1582907744814">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1582881836306" />
+    <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1582907744814" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1582885109090">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1582885109090" />
     <state width="768" height="480" key="XDebugger.FullValuePopup" timestamp="1581753558873">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="768" height="480" key="XDebugger.FullValuePopup/0.0.1536.960@0.0.1536.960" timestamp="1581753558873" />
-    <state x="445" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1582883030690">
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1582956421203">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="445" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1582883030690" />
-    <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582884706164">
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1582956421203" />
+    <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582955362466">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.960@0.0.1536.960" timestamp="1582884706164" />
+    <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.960@0.0.1536.960" timestamp="1582955362466" />
+    <state x="145" y="177" key="new project wizard" timestamp="1585239399413">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="145" y="177" key="new project wizard/0.0.1536.960@0.0.1536.960" timestamp="1585239399413" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
