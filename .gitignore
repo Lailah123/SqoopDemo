@@ -3,8 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
-*.iml
-out
-gen
-!/src/main/java/kafka/Aaa.java
+/*.iml
+/out
+/gen
+/.idea/
