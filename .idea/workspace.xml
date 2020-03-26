@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="新增kafka demo">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/Aaa.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Lailah123/SqoopDemo.git" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -158,7 +164,7 @@
       <workItem from="1582956264677" duration="54000" />
       <workItem from="1582956335709" duration="103000" />
       <workItem from="1585154951925" duration="2898000" />
-      <workItem from="1585242023551" duration="805000" />
+      <workItem from="1585242023551" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="代码格式化">
       <created>1582885096710</created>
@@ -181,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585242217881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增kafka demo">
+      <created>1585242880377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585242880377</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add ignore test">
+      <created>1585242906571</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585242906571</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,16 +244,12 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="代码格式化" />
     <MESSAGE value="新增kafka demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增kafka demo" />
+    <MESSAGE value="add ignore test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ignore test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="145" key="#Inspections" timestamp="1582042927355">
@@ -256,10 +272,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="924" y="321" key="#xdebugger.evaluate/0.0.1536.960@0.0.1536.960" timestamp="1582039343890" />
-    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1585242880281">
+    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1585243383843">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1585242880281" />
+    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1585243383843" />
     <state width="1494" height="407" key="GridCell.Tab.0.bottom" timestamp="1585240664931">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -296,18 +312,18 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1585242004466" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585242884299">
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585243386609">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1585242884299" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1585243386609" />
     <state width="768" height="480" key="XDebugger.FullValuePopup" timestamp="1581753558873">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state width="768" height="480" key="XDebugger.FullValuePopup/0.0.1536.960@0.0.1536.960" timestamp="1581753558873" />
-    <state x="445" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585242025284">
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1585243209116">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="445" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1585242025284" />
+    <state x="445" y="301" key="com.intellij.ide.util.TipDialog/0.0.1536.960@0.0.1536.960" timestamp="1585243209116" />
     <state x="551" y="404" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582955362466">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
