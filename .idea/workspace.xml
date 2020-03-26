@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8435c68b-b787-40e7-883f-72e335759070" name="Default Changelist" comment="新增kafka demo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kafka/Aaa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kafka/Aaa.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -157,7 +158,7 @@
       <workItem from="1582956264677" duration="54000" />
       <workItem from="1582956335709" duration="103000" />
       <workItem from="1585154951925" duration="2898000" />
-      <workItem from="1585242023551" duration="181000" />
+      <workItem from="1585242023551" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="代码格式化">
       <created>1582885096710</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585240647078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增kafka demo">
+      <created>1585242217881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585242217881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +190,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -190,6 +223,11 @@
           </value>
         </entry>
       </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -218,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="924" y="321" key="#xdebugger.evaluate/0.0.1536.960@0.0.1536.960" timestamp="1582039343890" />
-    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1585242131969">
+    <state x="351" y="80" key="CommitChangelistDialog2" timestamp="1585242880281">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1585242131969" />
+    <state x="351" y="80" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1585242880281" />
     <state width="1494" height="407" key="GridCell.Tab.0.bottom" timestamp="1585240664931">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
@@ -258,10 +296,10 @@
       <screen x="0" y="0" width="1536" height="960" />
     </state>
     <state x="269" y="119" key="SettingsEditor/0.0.1536.960@0.0.1536.960" timestamp="1585242004466" />
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585240650554">
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585242884299">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
-    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1585240650554" />
+    <state x="368" y="220" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1585242884299" />
     <state width="768" height="480" key="XDebugger.FullValuePopup" timestamp="1581753558873">
       <screen x="0" y="0" width="1536" height="960" />
     </state>
